@@ -22,7 +22,7 @@ export const Hero = () => {
           href="https://github.com/MaW000"
           target="_blank"
           rel="noreferrer noopener"
-          className="mt-12 inline-block rounded border-2 border-casablanca-500 bg-transparent py-5   px-7 font-mono text-casablanca-500 hover:bg-pizazz-500 hover:text-black focus:outline-none md:mt-12 lg:text-lg 2xl:text-xl 3xl:text-3xl"
+          className="mt-12 inline-block rounded border-2 border-casablanca-500 bg-transparent py-5   px-7 font-mono text-casablanca-500 hover:bg-pizazz-600 hover:text-black focus:outline-none md:mt-12 lg:text-lg 2xl:text-xl 3xl:text-3xl"
         >
           Check out my Github!
         </a>

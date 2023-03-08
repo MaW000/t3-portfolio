@@ -38,7 +38,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header className="align-center absolute -ml-4 mt-10 flex w-screen flex-col  pl-4 md:flex-row   ">
+    <header className="align-center absolute z-10 -ml-4 mt-10 flex w-screen  flex-col pl-4 md:flex-row  ">
       <a
         className="relative mx-auto h-[3.83rem] w-[10rem]  font-medium "
         href={"/"}
@@ -52,16 +52,16 @@ export const Navbar = () => {
           alt="logo"
         />
       </a>
-      <nav className="3xl:text-2xl mx-auto flex flex-wrap items-center justify-center text-base  lg:text-xl">
+      <nav className="mx-auto flex flex-wrap items-center justify-center text-base lg:text-xl  3xl:text-2xl">
         <button
-          onClick={() => scrollToTop(40)}
+          onClick={() => scrollToTop(31)}
           className="text-[#CCD6F1]  before:mr-1  before:text-casablanca-500 before:content-['|'] after:ml-1 after:text-casablanca-500 hover:text-casablanca-500 md:before:mr-5 md:after:ml-5  "
         >
           {" "}
           About
         </button>
         <button
-          onClick={() => scrollToTop(65)}
+          onClick={() => scrollToTop(54)}
           className="text-[#CCD6F1]  before:mr-1  before:text-casablanca-500 before:content-['|'] after:ml-1 after:text-casablanca-500 hover:text-casablanca-500  md:before:mr-5 md:after:ml-5  "
         >
           {" "}
@@ -75,7 +75,7 @@ export const Navbar = () => {
           Contact
         </button>
       </nav>
-      <button className=" 3xl:text-3xl hover:bg-darkOrange mx-auto my-auto rounded border-2 border-casablanca-500  bg-transparent px-4 py-2 font-mono text-xl text-casablanca-500 focus:outline-none">
+      <button className=" mx-auto my-auto rounded border-2 border-casablanca-500 bg-transparent px-4  py-2 font-mono text-xl font-bold text-casablanca-500 hover:bg-pizazz-500 hover:text-black focus:outline-none 3xl:text-3xl">
         Resume
       </button>
     </header>

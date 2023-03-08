@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply scrollbar overflow-x-hidden bg-tamarind-700;
+  @apply scrollbar overflow-x-hidden bg-tamarind-500;
 }
 
 @layer components {

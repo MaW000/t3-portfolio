@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
 const config = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        fade: "fadeOut 1s ease-in-out",
+      },
+      keyframes: {
+        fadeOut: {
+          "0%": { backgroundColor: "transparent", opacity: "0" },
+          "100%": { backgroundColor: "rgb(74, 85, 104)", opacity: "1" },
+        },
+      },
       screens: {
         "3xl": "2000px",
         "-md": { max: "767px" },
