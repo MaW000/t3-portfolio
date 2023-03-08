@@ -1,0 +1,5 @@
+export { Navbar } from './navbar'
+export { Hero } from'./hero'
+export { AboutMe } from './aboutMe'
+export {CubeSpinner} from './cubeSpinner'
+export { ContactButton } from './ContactButton'

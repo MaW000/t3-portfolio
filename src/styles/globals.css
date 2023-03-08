@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply scrollbar overflow-x-hidden bg-tamarind-700;
+}
+
+@layer components {
+  .x-pad {
+    @apply mx-32  py-32 px-32;
+  }
+  .cubeMPos {
+    @apply -top-48 -right-14;
+  }
+  .cubeLPos {
+    @apply top-0;
+  }
+  .half {
+    @apply col-span-10 col-start-1 row-span-full h-full  group-even:col-span-12 group-even:col-start-3;
+  }
+  .full {
+    @apply col-span-12 col-start-1 row-span-full;
+  }
+  .headlink {
+    @apply after:text-lightOrange  before:text-lightOrange  hover:text-lightOrange text-[#CCD6F1];
+  }
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #18181b;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #68686a;
+    border-radius: 100vh;
+    border: 3px solid #68686a;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #18181b;
+  }
+}

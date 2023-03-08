@@ -38,8 +38,11 @@ export const Navbar = () => {
   };
 
   return (
-    <header className="align-center absolute top-0 z-30   flex w-screen flex-col gap-2  pt-5 md:flex-row lg:pt-10   ">
-      <a className="relative mx-auto h-16 w-52  font-medium " href={"/"}>
+    <header className="align-center absolute -ml-4 mt-10 flex w-screen flex-col  pl-4 md:flex-row   ">
+      <a
+        className="relative mx-auto h-[3.83rem] w-[10rem]  font-medium "
+        href={"/"}
+      >
         <Image
           src="/logo.png"
           className="rounded-md"
